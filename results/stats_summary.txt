@@ -1,0 +1,68 @@
+============================================================
+RESULTS SUMMARY — paste into paper
+============================================================
+
+── ABSTRACT NUMBERS ──────────────────────────────────────
+Total Sigma rules scanned:         3,679
+ATT&CK Container techniques:       37
+Techniques with ≥1 Sigma rule:     25
+Techniques with 0 Sigma rules:     12
+Overall coverage rate:             67.6%
+Container-specific techniques:     13
+Container-specific covered:        4
+Container-specific coverage:       30.8%
+Techniques with only 1 rule:       1
+
+── TACTIC BREAKDOWN (Table II) ───────────────────────────
+  Credential Access              5/7 (71%)
+  Defense Evasion                4/8 (50%)
+  Discovery                      2/3 (67%)
+  Execution                      1/4 (25%)
+  Impact                         4/6 (67%)
+  Initial Access                 5/5 (100%)
+  Lateral Movement               0/1 (0%)
+  Persistence                    2/7 (29%)
+  Privilege Escalation           2/6 (33%)
+
+── UNCOVERED CONTAINER-SPECIFIC TECHNIQUES ───────────────
+(These are the most critical gaps — container-native attacks with no detection)
+  T1053.007  Scheduled Task/Job: Container Orchestration Job
+  T1098.006  Account Manipulation: Additional Container Cluster Roles
+  T1204.003  User Execution: Malicious Image
+  T1496.001  Resource Hijacking: Compute Hijacking
+  T1496.002  Resource Hijacking: Bandwidth Hijacking
+  T1543.005  Create or Modify System Process: Container Service
+  T1610  Deploy Container
+  T1612  Build Image on Host
+  T1613  Container and Resource Discovery
+
+── REAL-WORLD ATTACK CAMPAIGN COVERAGE ───────────────────
+  TeamTNT (2020-2021)
+    Techniques used: ['T1610', 'T1613', 'T1496.001', 'T1552.007', 'T1070']
+    Sigma covered:   ['T1552.007', 'T1070']
+    Not covered:     ['T1610', 'T1613', 'T1496.001']
+    Coverage rate:   40%
+
+  Hildegard (2021)
+    Techniques used: ['T1609', 'T1611', 'T1613', 'T1496.001', 'T1543.005']
+    Sigma covered:   ['T1609', 'T1611']
+    Not covered:     ['T1613', 'T1496.001', 'T1543.005']
+    Coverage rate:   40%
+
+  Siloscape (2021)
+    Techniques used: ['T1611', 'T1068', 'T1204.003']
+    Sigma covered:   ['T1611', 'T1068']
+    Not covered:     ['T1204.003']
+    Coverage rate:   67%
+
+  Kiss-a-Dog (2022)
+    Techniques used: ['T1610', 'T1609', 'T1496.001', 'T1562.001']
+    Sigma covered:   ['T1609', 'T1562.001']
+    Not covered:     ['T1610', 'T1496.001']
+    Coverage rate:   50%
+
+  RBAC Buster (2023)
+    Techniques used: ['T1098.006', 'T1613', 'T1552.007']
+    Sigma covered:   ['T1552.007']
+    Not covered:     ['T1098.006', 'T1613']
+    Coverage rate:   33%

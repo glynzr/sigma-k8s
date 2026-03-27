@@ -1,0 +1,4 @@
+venv/
+.vscode
+sigma
+__pycache__/

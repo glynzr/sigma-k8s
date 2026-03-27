@@ -1,0 +1,390 @@
+{
+  "name": "Sigma Coverage \u2014 ATT&CK Containers",
+  "versions": {
+    "attack": "18",
+    "navigator": "5.0.0",
+    "layer": "4.5"
+  },
+  "domain": "enterprise-attack",
+  "description": "Sigma rule coverage for MITRE ATT&CK Containers platform techniques",
+  "filters": {
+    "platforms": [
+      "Containers"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "aggregateFunction": "average",
+    "showID": true,
+    "showName": true,
+    "showAggregateScores": true,
+    "countUnscored": false,
+    "expandedSubtechniques": "annotated"
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1528",
+      "score": 5,
+      "color": "",
+      "comment": "14 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1562.001",
+      "score": 5,
+      "color": "",
+      "comment": "127 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1490",
+      "score": 5,
+      "color": "",
+      "comment": "26 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1036.005",
+      "score": 5,
+      "color": "",
+      "comment": "18 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1070",
+      "score": 5,
+      "color": "",
+      "comment": "20 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1190",
+      "score": 5,
+      "color": "",
+      "comment": "146 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1068",
+      "score": 5,
+      "color": "",
+      "comment": "28 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1046",
+      "score": 5,
+      "color": "",
+      "comment": "15 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1133",
+      "score": 5,
+      "color": "",
+      "comment": "19 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1069",
+      "score": 3,
+      "color": "",
+      "comment": "3 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1552.001",
+      "score": 5,
+      "color": "",
+      "comment": "24 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1136.001",
+      "score": 5,
+      "color": "",
+      "comment": "16 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1485",
+      "score": 5,
+      "color": "",
+      "comment": "20 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1110",
+      "score": 5,
+      "color": "",
+      "comment": "25 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1110.001",
+      "score": 3,
+      "color": "",
+      "comment": "3 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1078",
+      "score": 5,
+      "color": "",
+      "comment": "54 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1078.001",
+      "score": 4,
+      "color": "",
+      "comment": "4 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1078.003",
+      "score": 5,
+      "color": "",
+      "comment": "5 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1498",
+      "score": 3,
+      "color": "",
+      "comment": "3 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1609",
+      "score": 2,
+      "color": "",
+      "comment": "2 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1552.007",
+      "score": 4,
+      "color": "",
+      "comment": "4 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1611",
+      "score": 2,
+      "color": "",
+      "comment": "2 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1550.001",
+      "score": 4,
+      "color": "",
+      "comment": "4 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1525",
+      "score": 1,
+      "color": "",
+      "comment": "1 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1499",
+      "score": 2,
+      "color": "",
+      "comment": "2 Sigma rule(s)",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1036.010",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1053.007",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1098.006",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1110.003",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1110.004",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1204.003",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1496.001",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1496.002",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1543.005",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1610",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1612",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1613",
+      "score": 0,
+      "color": "#FF6666",
+      "comment": "NO Sigma coverage",
+      "enabled": true,
+      "metadata": [],
+      "showSubtechniques": true
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#FF6666",
+      "#FFD700",
+      "#00AA00"
+    ],
+    "minValue": 0,
+    "maxValue": 5
+  },
+  "legendItems": [
+    {
+      "label": "No coverage (0 rules)",
+      "color": "#FF6666"
+    },
+    {
+      "label": "Low (1 rule)",
+      "color": "#FFD700"
+    },
+    {
+      "label": "Good (5+ rules)",
+      "color": "#00AA00"
+    }
+  ],
+  "metadata": [],
+  "links": [],
+  "showTacticRowBackground": true,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
+}

@@ -1,0 +1,38 @@
+Technique ID,Technique Name,Tactic,Container-Specific,Sigma Rules,Coverage
+T1036.005,Masquerading: Match Legitimate Resource Name or Location,Defense Evasion,No,18,YES
+T1036.010,Masquerading: Masquerade Account Name,Defense Evasion,No,0,NO
+T1046,Network Service Discovery,Discovery,No,15,YES
+T1053.007,Scheduled Task/Job: Container Orchestration Job,Execution,Yes,0,NO
+T1068,Exploitation for Privilege Escalation,Privilege Escalation,No,28,YES
+T1069,Permission Groups Discovery,Discovery,No,3,YES
+T1070,Indicator Removal,Defense Evasion,No,20,YES
+T1078,Valid Accounts,Initial Access,No,54,YES
+T1078.001,Valid Accounts: Default Accounts,Initial Access,No,4,YES
+T1078.003,Valid Accounts: Local Accounts,Initial Access,No,5,YES
+T1098.006,Account Manipulation: Additional Container Cluster Roles,Persistence,Yes,0,NO
+T1110,Brute Force,Credential Access,No,25,YES
+T1110.001,Brute Force: Password Guessing,Credential Access,No,3,YES
+T1110.003,Brute Force: Password Spraying,Credential Access,No,0,NO
+T1110.004,Brute Force: Credential Stuffing,Credential Access,No,0,NO
+T1133,External Remote Services,Initial Access,No,19,YES
+T1136.001,Create Account: Local Account,Persistence,No,16,YES
+T1190,Exploit Public-Facing Application,Initial Access,No,146,YES
+T1204.003,User Execution: Malicious Image,Execution,Yes,0,NO
+T1485,Data Destruction,Impact,No,20,YES
+T1490,Inhibit System Recovery,Impact,No,26,YES
+T1496.001,Resource Hijacking: Compute Hijacking,Impact,Yes,0,NO
+T1496.002,Resource Hijacking: Bandwidth Hijacking,Impact,Yes,0,NO
+T1498,Network Denial of Service,Impact,No,3,YES
+T1499,Endpoint Denial of Service,Impact,No,2,YES
+T1525,Implant Internal Image,Persistence,Yes,1,YES
+T1528,Steal Application Access Token,Credential Access,No,14,YES
+T1543.005,Create or Modify System Process: Container Service,Persistence,Yes,0,NO
+T1550.001,Use Alternate Authentication Material: Application Access Token,Defense Evasion,No,4,YES
+T1552.001,Unsecured Credentials: Credentials In Files,Credential Access,No,24,YES
+T1552.007,Unsecured Credentials: Container API,Credential Access,Yes,4,YES
+T1562.001,Impair Defenses: Disable or Modify Tools,Defense Evasion,No,127,YES
+T1609,Container Administration Command,Execution,Yes,2,YES
+T1610,Deploy Container,Execution,Yes,0,NO
+T1611,Escape to Host,Privilege Escalation,Yes,2,YES
+T1612,Build Image on Host,Defense Evasion,Yes,0,NO
+T1613,Container and Resource Discovery,Discovery,Yes,0,NO
