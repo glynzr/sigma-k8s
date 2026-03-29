@@ -83,7 +83,7 @@ Red cells = no Sigma coverage. Green cells = 5+ rules.
 
 ## Data Sources
 
-- Sigma rules: [SigmaHQ/sigma](https://github.com/SigmaHQ/sigma) (snapshot taken March 2025)
+- Sigma rules: [SigmaHQ/sigma](https://github.com/SigmaHQ/sigma) 
 - ATT&CK Containers matrix v18: [attack.mitre.org](https://attack.mitre.org/matrices/enterprise/containers/)
 - Campaign techniques sourced from Trend Micro, Palo Alto Unit42, CrowdStrike, and Aqua Security Nautilus threat reports
 
